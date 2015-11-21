@@ -17,8 +17,18 @@ _________________________________________________ */
 
 /* Typography
 _________________________________________________ */
-
-
+body{
+	font-family: 'Abel',sans-serif;
+	font-size: 1.5em;
+	color: #000;
+}
+h2{
+	font-family: 'Satisfy', cursive;
+	font-size: 3em;
+	margin: 0.67em;
+}
+h2.bio{color:#3f7f7c;}
+p.bio{color: #fff;}
 /* Header & Navigation
 _________________________________________________ */
 header.main_nav{
