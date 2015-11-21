@@ -9,11 +9,13 @@ _________________________________________________
 _________________________________________________ */
 
 
+
 /* General Contents 
 _________________________________________________ */
 .main{padding-top:3%;}
 .row{padding: 2% 0;}
 .green{background-color:#7accc8;}
+
 
 /* Typography
 _________________________________________________ */
@@ -29,11 +31,31 @@ h2{
 }
 h2.bio{color:#3f7f7c;}
 p.bio{color: #fff;}
+
+
+
 /* Header & Navigation
 _________________________________________________ */
 header.main_nav{
 	padding: 1% 0;
 	display: block;
+}
+.logo{
+	margin: 5% auto;
+	text-align: center;
+}
+.logo a{
+	font-size: 3em;
+	color: #fff;
+	text-decoration: none;
+	border: 3px solid #fff;
+	text-transform: uppercase;
+	padding: 2px 10px 0 10px;
+	margin: 0;
+}
+.logo a:hover{
+	background-color: #fff;
+	color: #7accc8;
 }
 
 /* Images & Media 
@@ -45,8 +67,12 @@ img.avatar{
 }
 img:hover{opacity:0.8;}
 
+
+
 /* Footer
 _________________________________________________ */
+
+
 
 
 /* Media Queries
