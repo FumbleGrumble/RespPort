@@ -92,7 +92,11 @@ ul.social li.flickr a:hover{color: rgb(255,0,132);}
 ul.social li.youtube a:hover{color: rgb(187,0,0);}
 ul.social li.linkedin a:hover{color: rgb(0,123,182);}
 
-
+p.copyright{
+	text-align: center;
+	color: #666;
+	font-size: 1em;
+}
 
 /* Media Queries
 _________________________________________________ */
