@@ -51,19 +51,55 @@
 
 <div class="container main">
     <div class="row">
-      <div class="four columns portfolio"><img src="images/test1.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test2.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test3.jpg" alt="A random photo I took..."></div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test1.jpg" >
+        <img src="images/test1.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test2.jpg" >
+        <img src="images/test2.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test3.jpg" >
+        <img src="images/test3.jpg" alt="A random photo I took...">
+        </a>
+      </div>
     </div>
     <div class="row">
-      <div class="four columns portfolio"><img src="images/test4.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test5.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test6.jpg" alt="A random photo I took..."></div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test4.jpg" >
+        <img src="images/test4.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test5.jpg" >
+        <img src="images/test5.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test6.jpg" >
+        <img src="images/test6.jpg" alt="A random photo I took...">
+        </a>
+      </div>
     </div>
     <div class="row" style="margin-bottom: 10%;">
-      <div class="four columns portfolio"><img src="images/test7.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test8.jpg" alt="A random photo I took..."></div>
-      <div class="four columns portfolio"><img src="images/test9.jpg" alt="A random photo I took..."></div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test7.jpg" >
+        <img src="images/test7.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test8.jpg" >
+        <img src="images/test8.jpg" alt="A random photo I took...">
+        </a>
+      </div>
+      <div class="four columns portfolio">
+        <a class="image-link" href="images/test9.jpg" >
+        <img src="images/test9.jpg" alt="A random photo I took...">
+        </a>
+      </div>
     </div>
 </div><!-- Container -->
 
@@ -100,5 +136,10 @@
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <script src="js/jquery.magnific-popup.js"></script>
+  <script type="text/javascript">
+    $(document).ready(function() {
+  $('.image-link').magnificPopup({type:'image'});
+});
+  </script>
 </body>
 </html>
