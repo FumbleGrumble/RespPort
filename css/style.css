@@ -66,6 +66,7 @@ img.avatar{
 	border: 5px solid #fff;
 }
 div.portfolio img:hover{opacity:0.8;}
+.portrow3 {margin-bottom: 10%;}
 
 
 
@@ -100,3 +101,17 @@ p.copyright{
 
 /* Media Queries
 _________________________________________________ */
+/*Larger than mobile*/
+@media (max-width: 550px) {
+	.logo a {font-size: 2em;}
+	.main {padding-top: 15%;}
+	.portrow {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.portfolio img{margin-bottom: 10%;}
+	img.avatar{margin-top: 15%;}
+	h2.bio{font-size: 2.5em; text-align: center;}
+	p.bio{font-size: 1.25em; color: #3f7f7c;}
+	ul.social li a {font-size: .5em;}
+}
